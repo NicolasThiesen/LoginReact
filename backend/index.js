@@ -17,7 +17,7 @@ app.delete('/user/:id',(req,res)=>{}) //deletar
 app.use(express.urlencoded({extended:false}));
 
 app.get('/',(req,res)=>{
-    return
+    return "Hello From Node!"
 });
 
 
